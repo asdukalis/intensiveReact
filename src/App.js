@@ -1,6 +1,5 @@
 /*jshint esversion:6*/
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import './App.css';
 
 import Grid from "react-bootstrap/lib/Grid";

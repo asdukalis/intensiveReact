@@ -1,9 +1,12 @@
 /*jshint esversion:6*/
-import React, { Component } from "react";
+import React from "react";
 
 import Row from "react-bootstrap/lib/Row";
 import Col from "react-bootstrap/lib/Col";
 import styled from "styled-components";
+
+import Slider from "./Slider";
+
 
 const Reapair = styled.div`
   color: #fff;
@@ -52,7 +55,7 @@ class Main extends React.Component{
           <CallBtn>Оставить заявку</CallBtn>
         </Col>
         <Col lg={6} lgOffset={1}>
-          <div>Slider</div>
+          <Slider />
         </Col>
       </Row>
     )
